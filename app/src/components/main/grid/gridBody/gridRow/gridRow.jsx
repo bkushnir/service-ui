@@ -48,7 +48,7 @@ export class GridRow extends Component {
   render() {
     const { columns, value, selectable } = this.props;
     return (
-      <div className={cx('grid-row-wrapper')}>
+      <div className={cx('grid-row-wrapper', { selected: this.isItemSelected() })}>
         {
           this.state.withAccordion
             &&

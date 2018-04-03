@@ -1,6 +1,6 @@
 import { FormattedMessage } from 'react-intl';
 import classNames from 'classnames/bind';
-import { GhostButton } from 'components/buttons/ghostButton';
+import { GhostButton } from 'components/buttons/ghostButton/index';
 import ImportIcon from './img/import-inline.svg';
 import RefreshIcon from './img/refresh-inline.svg';
 import styles from './actionPanel.scss';
